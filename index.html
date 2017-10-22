@@ -13,10 +13,10 @@
 
 	<meta property="og:image" content="path/to/image.jpg">
 
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="shortcut icon" href="img/favicon/fa.png" type="image/x-icon">
+	<!-- <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
 
 
 	<link rel="stylesheet" href="css/fonts.min.css">
@@ -35,12 +35,12 @@
 	<div class="navigation">
 		<nav>
 			<ul class="nav">
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Событие</a></li>
-				<li><a href="#">Спикеры</a></li>
-				<li><a href="#">Программа</a></li>
-				<li><a href="#">To Lviv</a></li>
-				<li><a href="#">Оплата</a></li>
+				<li><a href="#" data-slide="slide1">Главная</a></li>
+				<li><a href="#" data-slide="slide2">Событие</a></li>
+				<li><a href="#" data-slide="slide3">Спикеры</a></li>
+				<li><a href="#" data-slide="slide4">Программа</a></li>
+				<li><a href="#" data-slide="slide5">To Lviv</a></li>
+				<li><a href="#" data-slide="slide7">Связаться</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -53,9 +53,9 @@
 
 		<div class="container">
 			<div class="header-description">
-				<h1>"Осенний лагерь"<br />Ресторанного бизнеса</h1>
+				<h1>"Осенний лагерь"<br /><span>Ресторанного бизнеса</h1>
 				<span class="span-line">16-19 ноября 2017</span>
-				<button type="button" name="button" class="btn btn-white">Ukraine Lviv</button>
+				<button type="button" name="button" class="btn btn-white">Оплатить</button>
 				<ul class="header-list">
 					<li><span>Новый опыт</span></li>
 					<li><span>-Лекции</span></li>
@@ -81,12 +81,12 @@
 						<h2>Меню</h2>
 						<nav>
 							<ul class="nav">
-								<li><a href="#">Главная</a></li>
-								<li><a href="#">Событие</a></li>
-								<li><a href="#">Спикеры</a></li>
-								<li><a href="#">Программа</a></li>
-								<li><a href="#">To Lviv</a></li>
-								<li><a href="#">Оплата</a></li>
+								<li><a href="#" data-slide="slide1">Главная</a></li>
+								<li><a href="#" data-slide="slide2">Событие</a></li>
+								<li><a href="#" data-slide="slide3">Спикеры</a></li>
+								<li><a href="#" data-slide="slide4">Программа</a></li>
+								<li><a href="#" data-slide="slide5">To Lviv</a></li>
+								<li><a href="#" data-slide="slide7">Связаться</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -105,17 +105,18 @@
 				<div class="row">
 					<div class="col-md-4">
 						<h2>Мы в соц.сетях</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenea euismod bibendum laoreet.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenea euismod bibendum laoreet.</p> -->
 					</div>
 					<div class="col-md-8">
 						<ul class="social-list">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-stumbleupon"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="https://www.facebook.com/resto.travel/" target="_blank"><i class="fa fa-facebook"></i> <span>facebook.com/resto.travel</span></a></li>
+
+							<!-- <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
+							<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+							<!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+							<li><a href="https://www.instagram.com/resto.travel/?hl=ru" target="_blank"><i class="fa fa-instagram"></i> <span>instagram.com/resto.travel</span></a></li>
+							<!-- <li><a href="#"><i class="fa fa-stumbleupon"></i></a></li> -->
+							<!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -126,7 +127,7 @@
 
 
 		<!-- description-block-1 START -->
-		<div class="description-section-1">
+		<div class="description-section-1"  data-slide="slide2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2 description-tabs">
@@ -145,7 +146,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 description-img">
-						<img src="img/desc-1.png" alt="lager">
+						<img src="img/resto.logo.png" alt="lager">
 					</div>
 				</div>
 			</div>
@@ -191,10 +192,10 @@
 					</div>
 					<div class="col-md-6 desc3-img">
 						<div class="row">
-							<div class="col-md-6 col-sm-6"><a href="img/desc-2.png" class="galleryItem" data-group="1"><img src="img/desc-2.png" alt=""></a></div>
-							<div class="col-md-6 col-sm-6"><a href="img/desc-2.png" class="galleryItem" data-group="1"><img src="img/desc-2.png" alt=""></a></div>
-							<div class="col-md-6 col-sm-6"><a href="img/desc-2.png" class="galleryItem" data-group="1"><img src="img/desc-2.png" alt=""></a></div>
-							<div class="col-md-6 col-sm-6"><a href="img/desc-2.png" class="galleryItem" data-group="1"><img src="img/desc-2.png" alt=""></a></div>
+							<div class="col-md-6 col-sm-6"><a href="img/hotel1.jpg" class="galleryItem" data-group="1"><img src="img/hotel1.jpg" alt=""></a></div>
+							<div class="col-md-6 col-sm-6"><a href="img/hotel2.jpg" class="galleryItem" data-group="1"><img src="img/hotel2.jpg" alt=""></a></div>
+							<div class="col-md-6 col-sm-6"><a href="img/hotel3.jpg" class="galleryItem" data-group="1"><img src="img/hotel3.jpg" alt=""></a></div>
+							<div class="col-md-6 col-sm-6"><a href="img/hotel4.jpg" class="galleryItem" data-group="1"><img src="img/hotel4.jpg" alt=""></a></div>
 						</div>
 					</div>
 				</div>
@@ -205,7 +206,7 @@
 
 
 		<!-- SPEAKERS START -->
-		<div class="speakers-section">
+		<div class="speakers-section"  data-slide="slide3">
 			<div class="container">
 				<div class="section-title">
 					<h2>Спикеры</h2>
@@ -220,112 +221,60 @@
 						<div class="owl-carousel owl-theme" id="speaker_carousel">
 							<div class="item">
 								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
+									<img src="img/ACooper.jpg" alt="man">
 								</div>
 								<div class="name-wrapper">
-									<h3>Jeremy H.</h3>
-									<span>Lorem ipsum</span>
+									<h3>Alex Cooper</h3>
+									<span>"Маркетинг без бюджета"</span>
 								</div>
 								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+									<p>Основатель компании "Люди Купера", создавшей такие нашумевшие проекты как: "Городской рынок еды", "Cooper Burgers", "Молодость", "Тихий бар", "Givi to me", "МАО", "Пышечная" и управляющий проектом "4 City" город Одесса. </p>
 								</div>
 							</div>
 							<div class="item">
 								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
+									<img src="img/woman1.jpeg" alt="man">
 								</div>
 								<div class="name-wrapper">
-									<h3>John S.</h3>
-									<span>Lorem ipsum</span>
+									<h3>Чебанова Надежда</h3>
+									<span>Локаворский монопродуктовый ресторан от идеи до воплощения.
+На примере бара мидий Kotelok, лучшего городского кафе Украины 2016г .
+по версии ресторанной премии соль</span>
 								</div>
 								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+									<p>Автор концепции и управляющий партнер бар мидий Kotelok, открыт с 25 декабря 2015г.
+
+в ресторанном бизнесе с 2008г.
+Работала в ресторанной компании Реста, отдел маркетинга под руководством Саввы Либкина
+Собственное бюро Upпетит</p>
 								</div>
 							</div>
 							<div class="item">
 								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
+									<img src="img/nadegda.jpeg" alt="man">
 								</div>
 								<div class="name-wrapper">
-									<h3>Susan W.</h3>
-									<span>Lorem ipsum</span>
+									<h3>Надя Перевизнык</h3>
+									<span>ЗАБУДЬТЕ ПРО ПИАР! ЗАЙМИТЕСЬ МАРКЕТИНГОМ</span>
 								</div>
 								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+									<p>Управляющий партнер «PR Bar»(Киев), работала с легендарными «Семья Димы Борисова» FEDORIV, Havas Ukraine
+PR и маркетинг специалист со стажем с 2006года </p>
 								</div>
 							</div>
 							<div class="item">
 								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
+									<img src="img/timur.jpeg" alt="man">
 								</div>
 								<div class="name-wrapper">
-									<h3>Jeremy H.</h3>
-									<span>Lorem ipsum</span>
+									<h3>Тимур Козонов</h3>
+									<span>Роль кофе в заведении/ почему свежая обжарка </span>
 								</div>
 								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+									<p>Владелец и управляющий в  «Foundation Coffee Roasters»</p>
 								</div>
 							</div>
-							<div class="item">
-								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
-								</div>
-								<div class="name-wrapper">
-									<h3>John S.</h3>
-									<span>Lorem ipsum</span>
-								</div>
-								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
-								</div>
-								<div class="name-wrapper">
-									<h3>Susan W.</h3>
-									<span>Lorem ipsum</span>
-								</div>
-								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
-								</div>
-								<div class="name-wrapper">
-									<h3>Jeremy H.</h3>
-									<span>Lorem ipsum</span>
-								</div>
-								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
-								</div>
-								<div class="name-wrapper">
-									<h3>John S.</h3>
-									<span>Lorem ipsum</span>
-								</div>
-								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="item-image">
-									<img src="img/man.jpg" alt="man">
-								</div>
-								<div class="name-wrapper">
-									<h3>Susan W.</h3>
-									<span>Lorem ipsum</span>
-								</div>
-								<div class="person-description">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</div>
@@ -335,7 +284,7 @@
 
 
 		<!-- MAP START -->
-		<div class="map-wrapper">
+		<div class="map-wrapper"  data-slide="slide5">
 			<div class="container">
 				<div class="map-overlay right">
 					<div class="item-list">
@@ -348,7 +297,7 @@
 							</div>
 							<div class="img">
 								<div class="component-media" data-type="image">
-										<a class="component-image" href="img/map.jpg">
+										<!-- <a class="component-image" href="img/map.jpg"> -->
 										<div class="loading-img" style="background-image: url('/img/5534246_100/image.jpg'); background-position: 50% 50%"></div> <img class="natural-img" src="img/map.jpg" alt="">
 									</a>
 								</div>
@@ -363,16 +312,17 @@
 
 
 		<!-- About money START -->
-		<div class="money-wrapper">
+		<div class="money-wrapper" data-slide="slide6">
 			<div class="container">
 				<div class="section-title">
-					<h2><span>Про деньги</span><br>всё по карману</h2>
+					<h2>Про деньги</h2>
+					<span>всё по карману</span>
 					<p>Для вашего удобства мы создали несколько пакетов оплаты, которые представлены ниже. <br> Ознакомьтесь и выберите подходящий.</p>
 				</div>
 				<div class="payment-item">
 					<div class="item-head">
 						<h3>Standart</h3>
-						<p>до 1.09.17 потом 9900</p>
+						<p>до 1.10.17 потом 9900</p>
 						<span>8 800</span>
 					</div>
 					<div class="item-tale">
@@ -381,13 +331,13 @@
 						<p>питание 3 дня <br> (Завтрак, кофе-брейк, ужин)</p>
 						<p>участие во всех мероприятиях <br> "Осеннего лагерь <br> ресторанного бизнеса</p>
 						<p>вечерняя программа</p>
-						<button type="button" name="button" class="btn yellow-btn">Сделать заказ</button>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSeuose3oZDaLa7tugqJ6KZQY_bX_rAzUScZDWl-MSdnbpIkGg/viewform" target="_blank" class="btn yellow-btn">Сделать заказ</a>
 					</div>
 				</div>
 				<div class="payment-item">
 					<div class="item-head">
 						<h3>Premium</h3>
-						<p>до 1.09.17 потом 11800</p>
+						<p>до 1.10.17 потом 11800</p>
 						<span>10 800</span>
 						<p>Самый популярный</p>
 					</div>
@@ -397,13 +347,13 @@
 						<p>питание 3 дня <br> (Завтрак, кофе-брейк, ужин)</p>
 						<p>участие во всех мероприятиях <br> "Осеннего лагерь <br> ресторанного бизнеса</p>
 						<p>вечерняя программа</p>
-						<button type="button" name="button" class="btn yellow-btn">Сделать заказ</button>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSeuose3oZDaLa7tugqJ6KZQY_bX_rAzUScZDWl-MSdnbpIkGg/viewform" class="btn yellow-btn" target="_blank">Сделать заказ</a>
 					</div>
 				</div>
 				<div class="payment-item">
 					<div class="item-head">
 						<h3>Family</h3>
-						<p>до 1.09.17 потом 15800</p>
+						<p>до 1.10.17 потом 15800</p>
 						<span>14 800</span>
 					</div>
 					<div class="item-tale">
@@ -412,7 +362,7 @@
 						<p>питание 3 дня <br> (Завтрак, кофе-брейк, ужин)</p>
 						<p>участие во всех мероприятиях <br> "Осеннего лагерь <br> ресторанного бизнеса</p>
 						<p>вечерняя программа</p>
-						<button type="button" name="button" class="btn yellow-btn">Сделать заказ</button>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSeuose3oZDaLa7tugqJ6KZQY_bX_rAzUScZDWl-MSdnbpIkGg/viewform" target="_blank" class="btn yellow-btn">Сделать заказ</a>
 					</div>
 				</div>
 			</div>
@@ -421,22 +371,22 @@
 
 
 		<!-- Learn More START -->
-		<div class="more-wrapper">
+		<div class="more-wrapper" data-slide="slide4">
 			<div class="container">
 				<h2>Хотите узнать больше?</h2>
 				<p>Узнать всё что будет происходить на "Осеннем лагере" ресторанного бизнеса вы можете нажав на кнопку снизу</p>
-				<a href="#" class="btn btn-white">Смотреть программу</a>
+				<a href="files/timeline.pdf" target="_blank" class="btn btn-white">Смотреть программу</a>
 			</div>
 		</div>
 		<!-- Learn More END -->
 
 
 		<!-- Make a request START -->
-		<div class="application-form">
+		<div class="application-form" data-slide="slide7">
 			<div class="container">
 				<div class="section-title">
-					<h2>Оформить заявку</h2>
-					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					<h2>Задайте вопрос</h2>
+					<span>Оставьте Ваш вопрос и мы с радостью на него ответим</span>
 				</div>
 				<div class="application-wrapper">
 					<form class="appliaction" action="">
@@ -455,9 +405,20 @@
 									</div>
 								</div>
 							</div>
+
 						</div>
 						<div class="button-wrapper">
-							<button type="submit" name="button" class="btn submit-btn">Заказать</button>
+							<button type="submit" name="button" class="btn submit-btn">Отправить</button>
+						</div>
+						<div class="row">
+							<div class="col-md-12 form-text">
+								<p>Если у вас возникли вопросы, звоните или пишите:</p>
+								<p>Тел.: +380664983051 Константин</p>
+								<p style="margin-bottom: 15px;">Email: admin@restotravel.com.ua</p>
+								<p>
+									По всем предложениям или вопросам сотрудничества звоните: Тел. <a href="tel:+380664983051">+380664983051</a> Константин
+								</p>
+							</div>
 						</div>
 					</form>
 				</div>
@@ -473,13 +434,12 @@
 		<div class="container">
 			<div class="social-wrapper">
 				<ul class="">
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fa fa-stumbleupon"></i></a></li>
-					<li><a href="#"><i class="fa fa-rss"></i></a></li>
+					<li><a href="https://www.facebook.com/resto.travel/"><i class="fa fa-facebook"></i></a></li>
+					<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+					<!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+					<li><a href="https://www.instagram.com/resto.travel/?hl=ru"><i class="fa fa-instagram"></i></a></li>
+					<!-- <li><a href="#"><i class="fa fa-stumbleupon"></i></a></li> -->
+					<!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
 				</ul>
 				<p>&copy; 2017 Developed by ArtSystem</p>
 			</div>
@@ -498,11 +458,64 @@
 	<![endif]-->
 
 	<!-- Load Scripts Start -->
+
 	<script src="js/libs.js"></script>
+
 	<script src="js/common.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGiWfSJAUFQAMAPR8Rs0KPzCl4z-6gjB0&callback=initMap"
+	async defer>
+	</script>
+	<script type="text/javascript">
+	function initMap() {
+	   // Basic options for a simple Google Map
+	   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+	   var contentString = '<div style="overflow: auto;">' +
+ '	   <div style="margin-bottom: 3px;">' +
+ '	   <strong>Taurus Hotel &amp; Spa</strong>' +
+	   '</div>' +
+	   '<div>пл. Князя Святослава, 5, Львів, Львівська область, 79000</div>' +
+	   '</div>';
+	   var mapOptions = {
+		   // How zoomed in you want the map to start at (always required)
+		   zoom: 11,
+
+		   // The latitude and longitude to center the map (always required)
+		   center: new google.maps.LatLng(49.842367,24.0072618), // New York
+
+		   // How you would like to style the map.
+		   // This is where you would paste any style found on Snazzy Maps.
+		   styles: [{"featureType":"all","elementType":"geometry.fill","stylers":[{"color":"#ff0000"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#424b5b"},{"weight":2},{"gamma":"1"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"weight":0.6},{"color":"#545b6b"},{"gamma":"0"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#ffffff"},{"visibility":"on"},{"lightness":"0"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#545b6b"},{"gamma":"1"},{"weight":"10"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#121318"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#2c2e3d"}]},{"featureType":"landscape.man_made","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"weight":"2.00"}]},{"featureType":"landscape.man_made","elementType":"labels.text.fill","stylers":[{"color":"#ff0000"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"color":"#111428"}]},{"featureType":"landscape.natural.landcover","elementType":"geometry.fill","stylers":[{"color":"#111428"},{"visibility":"on"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry.fill","stylers":[{"color":"#111428"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#666c7b"}]},{"featureType":"poi.attraction","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"poi.government","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#545b6b"}]},{"featureType":"poi.place_of_worship","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"poi.school","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#424a5b"},{"lightness":"0"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#808399"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#666c7b"}]},{"featureType":"transit","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#71718c"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#ffffff"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#515a70"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#414560"}]},{"featureType":"water","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"visibility":"on"}]},{"featureType":"water","elementType":"labels.text","stylers":[{"color":"#ffffff"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]}]
+	   };
+	   var infowindow = new google.maps.InfoWindow({
+	content: contentString
+  });
+	   // Get the HTML DOM element that will contain your map
+	   // We are using a div with id="map" seen below in the <body>
+	   var mapElement = document.getElementById('map');
+
+	   // Create the Google Map using our element and options defined above
+	   var map = new google.maps.Map(mapElement, mapOptions);
+
+	   // Let's also add a marker while we're at it 70 80
+	   var marker = {
+		   url: '../img/mark.png',
+	   };
+
+	   // NOW CREATE THE ACTUAL MARKER ON THE MAP
+	   var myMarker = new google.maps.Marker({
+		   position: new google.maps.LatLng(49.842367,24.0072618),
+		   map: map,
+		   icon: marker
+	   });
+	   myMarker.addListener('click', function() {
+	infowindow.open(map, myMarker);
+  });
+
+	}
+	</script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
 	<!-- Load Scripts End -->
 
 </body>
